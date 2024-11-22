@@ -1,0 +1,140 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header{
+    width: auto;
+    height: 200px;
+    background-color: #d1c7bd;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+    border-radius: 8px;
+    padding-top: 10px;
+}
+nav{
+    width: auto;
+    height: 50px;
+    background-color: #d1c7bd;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+    font-size: 20px;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+nav a{
+    /*color: #e6af2e;*/
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+    transition: .5s;
+    background-color: #d1c7bd;
+    color: #a3320b;
+}
+nav a:hover{
+    background-color: rgba(252, 197, 58, 0.452);
+    color: rgb(255, 255, 255);
+}
+
+
+.imagen {
+    background-image: url('IMG/Fondo.png');
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.imagen-texto h1 {
+    font-size: 90px;
+    margin-bottom: 10px;
+}
+
+.imagen-texto p {
+    font-size: 25px;
+}
+
+
+.img-abajo {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    margin-top: 30px; 
+}
+
+.img-abajo img {
+    width: 100%; 
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.319); 
+}
+
+
+.content {
+    text-align: center;
+    padding: 40px;
+}
+
+.titulo-abajo {
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.descripcion {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+     
+}
+footer {
+    background-color: black; 
+    color: white; 
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+footer p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+
+.iconos {
+    display: flex;
+    justify-content: center;
+    gap: 15px; 
+    margin-top: 10px;
+}
+
+
+
+.iconos img {
+    width: 30px; 
+    height: 30px;
+    border-radius: 50%; 
+    object-fit: cover; 
+    transition: transform 0.3s ease;
+}
+
+.iconos img:hover {
+    transform: scale(1.1); 
+}
